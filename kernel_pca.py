@@ -11,6 +11,7 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.model_selection import train_test_split
 
 if __name__ == '__main__':
+    
     df_heart = pd.read_csv('./data/Heart_Disease_Dataset.csv')
 
     print(df_heart)
